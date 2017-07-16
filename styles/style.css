@@ -373,6 +373,7 @@ h3 {
 
 #contact i,
 #contact .glyphicon,
+#contact .fi-social-treehouse,
 #contact img {
 	padding: 10px 10px;
 	font-size: 30px;
@@ -397,7 +398,8 @@ h3 {
 }
 
 #contact .glyphicon,
-#contact .fa {
+#contact .fa,
+#contact .fi-social-treehouse {
 	color: white;
 }
 
@@ -680,5 +682,20 @@ h3 {
 
 #contact .fa-globe:hover {
 	color: #00BFFF;
+	transition: all 0.4s;
+}
+
+#contact .fa-file-pdf-o:hover {
+  color: #E03A3E;
+  transition: all 0.4s;
+}
+
+#contact .glyphicon-envelope:hover {
+  color: #6638F0;
+  transition: all 0.4s;
+}
+
+#contact .fi-social-treehouse:hover {
+	color: #69C673;
 	transition: all 0.4s;
 }
