@@ -37,6 +37,9 @@ html {
 	text-shadow: none;
 }
 
+::-webkit-scrollbar {
+  display: none;
+}
 
 /*
  * A better looking default horizontal rule
@@ -698,4 +701,8 @@ h3 {
 #contact .fi-social-treehouse:hover {
 	color: #69C673;
 	transition: all 0.4s;
+}
+
+.text-muted {
+  text-align: center;
 }
