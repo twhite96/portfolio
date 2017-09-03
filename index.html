@@ -1,180 +1,308 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Tiffany White - Software Engineer</title>
-    <meta name="description" content="Personal portfolio for Tiffany White, Full Stack Developer">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="apple-touch-icon" href="apple-touch-icon.png">
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.min.css" />
-    <link rel="stylesheet" type="text/css" href="styles/style.css">
-    <!-- Place favicon.ico in the root directory -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Tiffany White | Web Developer</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+
+    <!-- Plugin CSS -->
+    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/creative.css" rel="stylesheet">
     <link rel="shortcut icon" href="favicon.ico">
 
-    <body>
-      <header id="landing">
-        <nav class="navbar navbar-default navbar-fixed-top">
-          <div class="container-fluid">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-menu-items" aria-expanded="false">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
+  </head>
+
+  <body id="page-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+      <div class="container">
+        <i class="fa fa-terminal fa-5x" aria-hidden="true"></i>
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">  T. White</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
         </button>
-              <a class="navbar-brand" href="#landing"><span class="glyphicon glyphicon-home" aria-label="Home" aria-hidden="true"></span></a>
-            </div>
-            <div class="collapse navbar-collapse navbar-right" id="main-menu-items">
-              <ul class="nav navbar-nav">
-                <li><a href="#intro" class="about">About</a></li>
-                <li><a href="#projects" class="projects">Projects</a></li>
-                <li><a href="#skills" class="skills hidden-lg">Skills</a></li>
-                <li><a href="#contact" class="contact">Contact</a></li>
-              </ul>
-            </div>
-          </div>
-        </nav>
-        <div class="hero-text-box">
-          <h1 id="main-heading">Tiffany White</h1>
-          <h2 id="main-subheading">Software Engineer</h2>
-      </header>
-      <a class="js--scroll-next-page" href="#"><i class="ion-chevron-down icon-big scroll-down-btn fadeInDown"></i></a>
-      </header>
-      <section id="intro" class="row js--about-me">
-        <div class="col-sm-4 col-md-4 col-lg-4">
-          <h3 class="text-center"><span class="glyphicon glyphicon-blackboard" aria-hidden="true"></span><br>Projects</h3>
-          <p>
-            I am using current technologies to build robust web applications and sites using JavaScript (ES6), Node, and Express. I am also building small apps with Angular, React, and Swift.
-          </p>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+            </li>
+          </ul>
         </div>
-        <div class="col-sm-4 col-md-4 col-lg-4">
-          <h3 class="text-center"><span class="glyphicon glyphicon-education" aria-hidden="true"></span><br>Experience</h3>
-          <p>
-            Formerly a student at the University of Pittsburgh's undergraduate Computer Science program and enthusiastic auto-didact learning with freeCodeCamp, Treehouse, Swift with Ray Wenderlich, and a plethora of Udemy courses.
-          </p>
-        </div>
-        <div class="col-sm-4 col-md-4 col-lg-4">
-          <h3 class="text-center"><span class="glyphicon glyphicon-time" aria-hidden="true"></span><br>Future</h3>
-          <p>
-            I'm currently sharpening my ES6 skills and learning back-end with Node. I'm also learning other JavaScript frameworks and hope to become competent with Swift.
-          </p>
-        </div>
-      </section>
-      <section id="projects" class="row js-latest text-center">
-        <h3 class="text-center">Latest projects</h3><br>
-        <div class="col-xs-12 col-sm-6 col-md-3">
-          <div class="thumbnail" width="300" height="150">
-            <img src="https://s3.us-east-2.amazonaws.com/portfolio96/The_Lens_Cap.jpg" alt="the-lens-cap">
-            <div class="caption">
-              <h4>The Lens Cap</h4>
-              <p><a href="https://github.com/twhite96/The-Lens-Cap" target="_blank" class="btn btn-info btn-xs" role="button">GitHub</a> <a href="https://twhite96.github.io/The-Lens-Cap/" target="_blank" class="btn btn-default btn-xs" role="button">App</a></p>
-            </div>
-          </div>
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-3">
-          <div class="thumbnail" width="300" height="150">
-            <img src="https://s3.us-east-2.amazonaws.com/portfolio96/RandQuoteGen.jpg" alt="random-quote-generator">
-            <div class="caption">
-              <h4>Random Quote Generator</h4>
-              <p><a href="https://github.com/twhite96/RandQuoteGen" target="_blank" class="btn btn-info btn-xs" role="button">GitHub</a> <a href="https://twhite96.github.io/RandQuoteGen/" target="_blank" class="btn btn-default btn-xs" role="button">App</a></p>
-            </div>
-          </div>
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-3">
-          <div class="thumbnail" width="300" height="150">
-            <img src="https://s3.us-east-2.amazonaws.com/portfolio96/checkyoself.jpg" alt="checkyoself">
-            <div class="caption">
-              <h4>Check Yo Self Grammar Checker <span><strong><em>(WIP)</em></strong></span></h4>
-              <p><a href="https://github.com/twhite96/checkyoself" target="_blank" class="btn btn-info btn-xs" role="button">GitHub</a> <a href="https://checkyoself.herokuapp.com" target="_blank" class="btn btn-default btn-xs" role="button">App</a></p>
-            </div>
-          </div>
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-3">
-          <div class="thumbnail" width="300" height="150">
-            <img src="https://s3.us-east-2.amazonaws.com/portfolio96/Weather_App-min.jpg" alt="freeCodeCamp-weather-app">
-            <div class="caption">
-              <h4>Weather App</h4>
-              <p><a href="https://github.com/twhite96/Weather_App" target="_blank" class="btn btn-info btn-xs" role="button">GitHub</a> <a href="https://twhite96.github.io/Weather_App/" target="_blank" class="btn btn-default btn-xs" role="button">App</a></p>
-            </div>
-          </div>
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-3">
-          <div class="thumbnail" width="300" height="150">
-            <img src="https://s3.us-east-2.amazonaws.com/yelpcamp96/campgrouds_screenshot.jpg" alt="yelpcamp">
-            <div class="caption">
-              <h4>YelpCamp <span><strong><em>(WIP)</em></strong></span></h4>
-              <p><a href="https://github.com/twhite96/YelpCamp" target="_blank" class="btn btn-info btn-xs" role="button">GitHub</a> <a href="https://yelpcamp96.herokuapp.com/" target="_blank" class="btn btn-default btn-xs" role="button">App</a></p>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section id="skills" class="row js-skills">
-        <div class="col-xs-10 col-xs-offset-1">
-          <h3 class="text-center">Skills and services</h3>
-          <p class="text-center">
-            My ultimate goal is to become a full-stack web developer and my skill-set constantly changes. Strengths are currently in the front-end, with an intermediate understanding of vanilla JavaScript and a beginner's understanding of Node, Express, MongoDB,
-            and Mongoose.
-          </p><br />
-          <div class="row text-center">
-            <i class="devicons devicon-css3-plain colored"></i>
-            <i class="devicons devicon-bootstrap-plain colored"></i>
-            <i class="devicons devicon-javascript-plain colored"></i>
-            <i class="devicons devicon-nodejs-plain colored"></i>
-            <i class="devicons devicon-express-original colored"></i>
-            <i class="devicons devicon-mongodb-plain-wordmark colored"></i>
-            <div class="row text-center" id="pad-up">
-              <h3 class="text-center">In progress<br /></h3>
-              <i class="devicons devicon-swift-plain colored"></i>
-              <i class="devicons devicon-react-original colored"></i>
-              <i class="devicons devicon-angularjs-plain colored"></i>
-            </div>
-            <div class="row text-center" id="pad-up">
-              <h3 class="text-center">Version Control<br /></h3>
-              <i class="devicons devicon-git-plain colored"></i>
-              <i class="devicons devicon-github-plain colored"></i>
-            </div>
+      </div>
+    </nav>
 
+    <header class="masthead">
+      <div class="header-content">
+        <div class="header-content-inner">
+          <h1 class="homeHeading">
+          <a href="" class="typewrite" data-period="2000" data-type='[ "Hi, my name is Tiffany.", "I am a developer,", "a hardware nerd,", "and excited about web and iOS development." ]'>
+          <span class="wrap"></span>
+          </a>
+        </h1>
+          <div class="pad-up">
+            <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Find Out More</a>
           </div>
         </div>
-      </section>
-      <footer id="contact" class="row js-contact">
-        <h3 class="text-center">Contact</h3>
-        <div class="col-xs-10 col-xs-offset-1 text-center">
-          <p>
-            I'd be happy to answer any questions you might have. Please feel free to contact me.
-          </p>
-          <a href="mailto:hey@tiffanyrwhite.com" target="_blank">
-      <span class="glyphicon glyphicon-envelope"></span></a>
-          <a href="https://twitter.com/TiffanyW_412" target="_blank">
-      <i class="fa fa-twitter" aria-hidden="true"></i></a>
-          <a href="https://www.linkedin.com/in/tiffanyrwhite" target="_blank">
-      <i class="fa fa-linkedin" aria-hidden="true"></i></a>
-          <a href="https://github.com/twhite96" target="_blank">
-      <i class="fa fa-github" aria-hidden="true"></i></a>
-          <a href="https://www.freecodecamp.com/twhite96" target="_blank">
-      <i class="fa fa-free-code-camp" aria-hidden="true"></i></a>
-          <a href="https://teamtreehouse.com/twhite96" target="_blank">
-      <i class="fi-social-treehouse"></i></a>
-          <a href="https://tiffanywhite.tech" target=_ "blank">
-      <i class="fa fa-globe" aria-hidden="true"></i></a>
-          <a href="https://www.tiffanyrwhite.com/resume/
-" target=_ "blank"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
+      </div>
+    </header>
 
-        </div><br>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-smooth-scroll/2.2.0/jquery.smooth-scroll.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
-        <script src="src/portfolio.js"></script>
-        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
-        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
-    </body>
+    <section class="bg-primary" id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto text-center">
+            <h2 class="section-heading text-white">Looking for a quick learning junior dev? That's me! Take a look below.</h2>
+            <hr class="light">
+            <p class="text-faded">I have college computer science experience as well as self-taught concepts in web dev and computer science. I am expanding my knowledeg with math and algorithms. I look forward to working with you.</p>
+            <a class="btn btn-default btn-xl js-scroll-trigger" href="#services">Check It Out!</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="skills">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading">Skills</h2>
+            <hr class="primary">
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 text-center">
+            <div class="service-box">
+              <i class="devicons devicon-css3-plain colored sr-icons"></i>
+              <h3>2 1/2 years working with CSS./h3>
+              <p class="text-muted">Keyframe animations, transitions, etc. CSS is pretty cool.</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 text-center">
+            <div class="service-box">
+              <i class="devicons devicon-bootstrap-plain colored sr-icons"></i>
+              <h3>2 1/2 years working with Bootstrap.</h3>
+              <p class="text-muted">Looking forward to 4.0 coming out of beta!</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 text-center">
+            <div class="service-box">
+              <i class="devicons devicon-javascript-plain colored sr-icons"></i>
+              <h3>2 1/2 years working with JavaScript</h3>
+              <p class="text-muted">Started with ES5 and am starting to get the hang of ES6 and functional paradigms.</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 text-center">
+            <div class="service-box">
+              <i class="devicons devicon-nodejs-plain colored sr-icons"></i>
+              <h3>5 mos. with Node</h3>
+              <p class="text-muted">Beginner's understanding of Node and Express. Currently building apps with these technologies.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3 col-md-6 text-center">
+              <div class="service-box">
+                <i class="devicons devicon-express-original colored sr-icons"></i>
+                <h3>5 mos. with Express</h3>
+                <p class="text-muted">My favorite templating language. Excellent with Node and Mongo.</p>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 text-center">
+              <div class="service-box">
+                <i class="devicons devicon-mongodb-plain-wordmark colored sr-icons"></i>
+                <h3>5 mos. with Mongo</h3>
+                <p class="text-muted">Learning the basics and adding a framework for working with Mongo, Mongoose.</p>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 text-center">
+              <div class="service-box">
+                <i class="devicons devicon-react-original colored sr-icons"></i>
+                <h3>React: Next to Learn</h3>
+                <p class="text-muted">Once I finish with Node, Express, and Mongo I am starting React. Looking forward to the challenge!</p>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 text-center">
+              <div class="service-box">
+                <i class="devicons devicon-angularjs-plain colored sr-icons"></i>
+                <h3>Angular: Next to Learn with React</h3>
+                <p class="text-muted">Angular is still an important front-end framework. Currently looking into it.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <section class="p-0" id="portfolio">
+      <div class="container-fluid">
+        <div class="row no-gutter popup-gallery">
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="https://s3.us-east-2.amazonaws.com/portfolio96/The_Lens_Cap.jpg">
+            <img class="img-fluid" src="https://s3.us-east-2.amazonaws.com/portfolio96/The_Lens_Cap.jpg" alt="">
+            <div class="portfolio-box-caption">
+              <div class="portfolio-box-caption-content">
+                <div class="project-category text-faded">
+                  Mock e-commerce website
+                </div>
+                <div class="project-name">
+                  The Lens Cap
+                </div>
+              </div>
+            </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="https://s3.us-east-2.amazonaws.com/portfolio96/RandQuoteGen.jpg" alt="the-lens-cap">
+              <img class="img-fluid" src="https://s3.us-east-2.amazonaws.com/portfolio96/RandQuoteGen.jpg" alt="the-lens-cap">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Quote app using Quotes on Design API and AJAX
+                  </div>
+                  <div class="project-name">
+                    Random Quote Generator
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="https://s3.us-east-2.amazonaws.com/portfolio96/checkyoself.jpg" alt="checkyoself">
+              <img class="img-fluid" src="https://s3.us-east-2.amazonaws.com/portfolio96/checkyoself.jpg" alt="checkyoself">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    App to check markdown blog posts for grammar and spelling mistakes
+                  </div>
+                  <div class="project-name">
+                    Check Yo Self
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="https://s3.us-east-2.amazonaws.com/portfolio96/Weather_App-min.jpg" alt="freeCodeCamp-weather-app">
+              <img class="img-fluid" src="https://s3.us-east-2.amazonaws.com/portfolio96/Weather_App-min.jpg" alt="freeCodeCamp-weather-app">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Weather app built for freeCodeCamp using Dark Sky API
+                  </div>
+                  <div class="project-name">
+                    freeCodeCamp Weather App
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="https://s3.us-east-2.amazonaws.com/yelpcamp96/campgrouds_screenshot.jpg" alt="yelpcamp">
+              <img class="img-fluid" src="https://s3.us-east-2.amazonaws.com/yelpcamp96/campgrouds_screenshot.jpg" alt="yelpcamp">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Yelp clone for campsites built for The Web Developer Bootcamp
+                  </div>
+                  <div class="project-name">
+                    YelpCamp
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <!-- <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="https://s3.us-east-2.amazonaws.com/yelpcamp96/campgrouds_screenshot.jpg" alt="yelpcamp">
+              <img class="img-fluid" src="https://s3.us-east-2.amazonaws.com/yelpcamp96/campgrouds_screenshot.jpg" alt="yelpcamp">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Yelp clone for campsites built for The Web Developer Bootcamp
+                  </div>
+                  <div class="project-name">
+                    YelpCamp
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div> -->
+        </div>
+      </div>
+    </section>
+
+    <div class="call-to-action bg-dark">
+      <div class="container text-center">
+        <h2>Check out my Github.</h2>
+        <a class="btn btn-default btn-xl sr-button" href="http://github.com/twhite96" target="_blank">Github Projects</a>
+      </div>
+    </div>
+
+    <section id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto text-center">
+            <h2 class="section-heading">Let's Get In Touch!</h2>
+            <hr class="primary">
+            <p>I am excited to learn and build innovative products. If this sounds like a junior dev you'd like to have, get in touch!</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 ml-auto text-center">
+            <i class="fa fa-phone fa-3x sr-contact"></i>
+            <p>Email for phone number.</p>
+          </div>
+          <div class="col-lg-4 mr-auto text-center">
+            <i class="fa fa-envelope-o fa-3x sr-contact"></i>
+            <p>
+              <a href="mailto:info@tiffanyrwhite.com">info@tiffanyrwhite.com</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/popper/popper.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
+    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/creative.js"></script>
+    <script type="text/javascript" src="js/typewriter.js"></script>
+
+  </body>
 
 </html>
