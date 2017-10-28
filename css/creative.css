@@ -243,7 +243,7 @@ header.masthead {
   min-height: auto;
   text-align: center;
   color: white;
-  background-image: url("https://s3.us-east-2.amazonaws.com/portfolio96/iMac-min.jpg");
+  background-image: url('https://cdn.tiffanywhite.tech/wp-content/uploads/2017/10/11231056/iMac-min2.jpg');
   background-position: center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -341,17 +341,29 @@ header.masthead .header-content .header-content-inner p {
   transform: translateY(-50%);
   text-align: center;
 }
-.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
-.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
+.portfolio-box
+  .portfolio-box-caption
+  .portfolio-box-caption-content
+  .project-category,
+.portfolio-box
+  .portfolio-box-caption
+  .portfolio-box-caption-content
+  .project-name {
   padding: 0 15px;
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
-.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
+.portfolio-box
+  .portfolio-box-caption
+  .portfolio-box-caption-content
+  .project-category {
   font-size: 14px;
   font-weight: 600;
   text-transform: uppercase;
 }
-.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
+.portfolio-box
+  .portfolio-box-caption
+  .portfolio-box-caption-content
+  .project-name {
   font-size: 18px;
 }
 .portfolio-box:hover .portfolio-box-caption {
@@ -361,10 +373,16 @@ header.masthead .header-content .header-content-inner p {
   outline: none;
 }
 @media (min-width: 768px) {
-  .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
+  .portfolio-box
+    .portfolio-box-caption
+    .portfolio-box-caption-content
+    .project-category {
     font-size: 16px;
   }
-  .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
+  .portfolio-box
+    .portfolio-box-caption
+    .portfolio-box-caption-content
+    .project-name {
     font-size: 22px;
   }
 }
