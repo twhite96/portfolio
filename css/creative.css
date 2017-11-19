@@ -243,12 +243,13 @@ header.masthead {
   min-height: auto;
   text-align: center;
   color: white;
-  background-image: url('https://cdn.tiffanywhite.tech/wp-content/uploads/2017/10/11231056/iMac-min2.jpg');
+  background-image: url('https://cdn.tiffanywhite.tech/wp-content/uploads/2017/11/17011951/benjamin-voros-160962.jpg');
   background-position: center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  image-rendering: -webkit-optimize-contrast;
 }
 header.masthead .header-content {
   position: relative;
