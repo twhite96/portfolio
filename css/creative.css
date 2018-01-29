@@ -535,3 +535,7 @@ fieldset[disabled] .btn-primary:hover {
 .devicons {
   font-size: 5rem;
 }
+
+.center {
+  padding-top: 8rem;
+}
